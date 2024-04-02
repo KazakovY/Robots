@@ -3,6 +3,8 @@ package gui;
 import javax.swing.*;
 
 enum DisplayMode {
+    METAL("javax.swing.plaf.metal.MetalLookAndFeel", "Metal"),
+    NIMBUS("javax.swing.plaf.nimbus.NimbusLookAndFeel", "Nimbus"),
     CROSS_PLATFORM(UIManager.getSystemLookAndFeelClassName(), "Универсальная схема"),
     SYSTEM(UIManager.getCrossPlatformLookAndFeelClassName(), "Системная схема");
 
